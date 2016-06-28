@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bHE-Fe-b7j">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -32,6 +32,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ptv-8p-FJR" kind="show" id="cX4-de-eYq"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ylA-ya-RJQ" style="IBUITableViewCellStyleDefault" id="hVy-cj-UWN">
                                         <rect key="frame" x="0.0" y="136" width="320" height="44"/>
@@ -49,6 +52,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Q3L-LW-1OR" kind="show" id="JYD-Sk-fdQ"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Poc-Cg-oJY" style="IBUITableViewCellStyleDefault" id="mJ8-BL-gxi">
                                         <rect key="frame" x="0.0" y="180" width="320" height="44"/>
@@ -57,7 +63,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Calcula Salário" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Poc-Cg-oJY">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Calcula Sálario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Poc-Cg-oJY">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -66,6 +72,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="orS-YG-H6i" kind="show" id="DdP-hq-9uV"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="pwy-S8-ZRa" style="IBUITableViewCellStyleDefault" id="Csa-d0-SYC">
                                         <rect key="frame" x="0.0" y="224" width="320" height="44"/>
@@ -97,7 +106,64 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dyn-6p-YaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="455" y="245"/>
+            <point key="canvasLocation" x="461" y="245"/>
+        </scene>
+        <!--Soma da PA-->
+        <scene sceneID="a2n-Y0-PFP">
+            <objects>
+                <viewController title="Soma da PA" id="Q3L-LW-1OR" customClass="ViewControllerSomaDaPA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tCf-uP-lh8"/>
+                        <viewControllerLayoutGuide type="bottom" id="1zO-2L-Fal"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LGr-DO-kAx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzP-pQ-Xt0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="588"/>
+        </scene>
+        <!--Calcula Sálario-->
+        <scene sceneID="ONv-CE-F8y">
+            <objects>
+                <viewController title="Calcula Sálario" id="orS-YG-H6i" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q0J-Bi-nx8"/>
+                        <viewControllerLayoutGuide type="bottom" id="tPK-MJ-36j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xkP-MW-4J7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Lg-dM-yvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="1232"/>
+        </scene>
+        <!--Calculadora-->
+        <scene sceneID="6Ff-lB-gcl">
+            <objects>
+                <viewController title="Calculadora" id="Ptv-8p-FJR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="THt-gN-Gld"/>
+                        <viewControllerLayoutGuide type="bottom" id="paY-EJ-saf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bOx-F2-fr1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avf-44-AEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897" y="-183"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8DT-hX-52G">
