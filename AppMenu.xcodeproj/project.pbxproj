@@ -15,6 +15,10 @@
 		D81841661D22C641006BB7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81841641D22C641006BB7F9 /* LaunchScreen.storyboard */; };
 		D818416F1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m in Sources */ = {isa = PBXBuildFile; fileRef = D818416E1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m */; };
 		D81841721D235908006BB7F9 /* ViewControllerConvrtTemperatura.m in Sources */ = {isa = PBXBuildFile; fileRef = D81841711D235908006BB7F9 /* ViewControllerConvrtTemperatura.m */; };
+		D81841751D240B21006BB7F9 /* Funcionario.m in Sources */ = {isa = PBXBuildFile; fileRef = D81841741D240B21006BB7F9 /* Funcionario.m */; };
+		D81841781D240C61006BB7F9 /* Gerente.m in Sources */ = {isa = PBXBuildFile; fileRef = D81841771D240C61006BB7F9 /* Gerente.m */; };
+		D818417B1D240C71006BB7F9 /* Vendedor.m in Sources */ = {isa = PBXBuildFile; fileRef = D818417A1D240C71006BB7F9 /* Vendedor.m */; };
+		D818417E1D240FD9006BB7F9 /* ViewControllerCalcSalario.m in Sources */ = {isa = PBXBuildFile; fileRef = D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		D818416E1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSomaDaPA.m; sourceTree = "<group>"; };
 		D81841701D235908006BB7F9 /* ViewControllerConvrtTemperatura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerConvrtTemperatura.h; sourceTree = "<group>"; };
 		D81841711D235908006BB7F9 /* ViewControllerConvrtTemperatura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerConvrtTemperatura.m; sourceTree = "<group>"; };
+		D81841731D240B21006BB7F9 /* Funcionario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funcionario.h; sourceTree = "<group>"; };
+		D81841741D240B21006BB7F9 /* Funcionario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funcionario.m; sourceTree = "<group>"; };
+		D81841761D240C61006BB7F9 /* Gerente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gerente.h; sourceTree = "<group>"; };
+		D81841771D240C61006BB7F9 /* Gerente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gerente.m; sourceTree = "<group>"; };
+		D81841791D240C71006BB7F9 /* Vendedor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vendedor.h; sourceTree = "<group>"; };
+		D818417A1D240C71006BB7F9 /* Vendedor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vendedor.m; sourceTree = "<group>"; };
+		D818417C1D240FD9006BB7F9 /* ViewControllerCalcSalario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCalcSalario.h; sourceTree = "<group>"; };
+		D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCalcSalario.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,14 @@
 				D818416E1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m */,
 				D81841701D235908006BB7F9 /* ViewControllerConvrtTemperatura.h */,
 				D81841711D235908006BB7F9 /* ViewControllerConvrtTemperatura.m */,
+				D81841731D240B21006BB7F9 /* Funcionario.h */,
+				D81841741D240B21006BB7F9 /* Funcionario.m */,
+				D818417C1D240FD9006BB7F9 /* ViewControllerCalcSalario.h */,
+				D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */,
+				D81841761D240C61006BB7F9 /* Gerente.h */,
+				D81841771D240C61006BB7F9 /* Gerente.m */,
+				D81841791D240C71006BB7F9 /* Vendedor.h */,
+				D818417A1D240C71006BB7F9 /* Vendedor.m */,
 				D81841621D22C641006BB7F9 /* Assets.xcassets */,
 				D81841641D22C641006BB7F9 /* LaunchScreen.storyboard */,
 				D81841671D22C641006BB7F9 /* Info.plist */,
@@ -160,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81841721D235908006BB7F9 /* ViewControllerConvrtTemperatura.m in Sources */,
+				D81841751D240B21006BB7F9 /* Funcionario.m in Sources */,
+				D81841781D240C61006BB7F9 /* Gerente.m in Sources */,
 				D818416F1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m in Sources */,
+				D818417E1D240FD9006BB7F9 /* ViewControllerCalcSalario.m in Sources */,
+				D818417B1D240C71006BB7F9 /* Vendedor.m in Sources */,
 				D818415E1D22C641006BB7F9 /* ViewController.m in Sources */,
 				D818415B1D22C641006BB7F9 /* AppDelegate.m in Sources */,
 				D81841581D22C641006BB7F9 /* main.m in Sources */,

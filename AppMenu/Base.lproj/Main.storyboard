@@ -360,7 +360,7 @@
         <!--Calcula Sálario-->
         <scene sceneID="ONv-CE-F8y">
             <objects>
-                <viewController title="Calcula Sálario" id="orS-YG-H6i" sceneMemberID="viewController">
+                <viewController title="Calcula Sálario" id="orS-YG-H6i" customClass="ViewControllerCalcSalario" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q0J-Bi-nx8"/>
                         <viewControllerLayoutGuide type="bottom" id="tPK-MJ-36j"/>
