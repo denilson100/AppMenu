@@ -350,6 +350,7 @@
                         <outlet property="lbUm" destination="YTf-1a-yvb" id="Pn8-AJ-P8N"/>
                         <outlet property="segmentedControl" destination="6iF-Oh-5lB" id="aK8-W9-evu"/>
                         <outlet property="valorDeEntrada" destination="7gW-jm-ghY" id="llz-NG-UWh"/>
+                        <outlet property="valorDigitado" destination="7gW-jm-ghY" id="oTo-yl-6Ni"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aRg-X7-LMR" userLabel="First Responder" sceneMemberID="firstResponder"/>

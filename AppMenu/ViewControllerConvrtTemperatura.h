@@ -26,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lbResultUm;
 
 @property (weak, nonatomic) IBOutlet UILabel *lbResultDois;
+@property (weak, nonatomic) IBOutlet UITextField *valorDigitado;
 
 
 @end
