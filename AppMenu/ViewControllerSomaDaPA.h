@@ -10,4 +10,15 @@
 
 @interface ViewControllerSomaDaPA : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *valorInicial;
+
+@property (weak, nonatomic) IBOutlet UITextField *razao;
+
+@property (weak, nonatomic) IBOutlet UITextField *valorMax;
+
+@property (weak, nonatomic) IBOutlet UILabel *lbResultado;
+
+- (IBAction)somaDaPA:(UIButton *)sender;
+
+
 @end

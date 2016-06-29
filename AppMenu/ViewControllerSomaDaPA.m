@@ -14,35 +14,36 @@
 
 @implementation ViewControllerSomaDaPA
 
+int vInicial;
+int vRazao;
+int vMax;
+int nValor;
+int vSoma;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    self.lbResultado.text = @"0";
     
-    int inicial = 4;
-    int razao = 3;
-    int nValor = inicial;
-    int valor_max = 20;
-    int soma = 0;
+}
+
+- (IBAction)somaDaPA:(UIButton *)sender {
     
-    while (nValor <= valor_max) {
-        nValor += razao;
-        soma = soma + nValor;
-        NSLog(@"Numero: %d", nValor);
+    vInicial = self.valorInicial.text.integerValue;
+    vRazao = self.razao.text.integerValue;
+    vMax = self.valorMax.text.integerValue;
+    
+    while (nValor <= vMax) {
+        nValor += vRazao;
+        vSoma = vSoma + nValor;
     }
-    NSLog(@"Soma: %d", soma);
     
+    self.lbResultado.text = [NSString stringWithFormat:@"%d", vSoma];
+    
+    self.valorInicial.text = @"";
+    self.razao.text = @"";
+    self.valorMax.text = @"";
 }
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
