@@ -10,4 +10,8 @@
 
 @implementation Vendedor
 
++ (double) calculaAumento : (Vendedor *) vendedor {
+    return [vendedor salario] * 1.15;
+}
+
 @end

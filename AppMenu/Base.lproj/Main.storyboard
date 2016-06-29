@@ -63,7 +63,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Calcula Sálario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Poc-Cg-oJY">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Calcula Salário" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Poc-Cg-oJY">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -368,9 +368,131 @@
                     <view key="view" contentMode="scaleToFill" id="xkP-MW-4J7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xm4-oA-dkA">
+                                <rect key="frame" x="25" y="83" width="270" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="cV9-D7-Z5Y"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Funcionário"/>
+                                    <segment title="Gerente"/>
+                                    <segment title="Vendedor"/>
+                                </segments>
+                                <connections>
+                                    <action selector="indexChaged:" destination="orS-YG-H6i" eventType="valueChanged" id="iNj-Nw-0HC"/>
+                                </connections>
+                            </segmentedControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w0j-cq-mgN">
+                                <rect key="frame" x="25" y="136" width="270" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Salário Base:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsv-Wd-fFX">
+                                        <rect key="frame" x="0.0" y="0.0" width="228" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bae-hn-V56">
+                                        <rect key="frame" x="228" y="0.0" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="JyU-0b-Nwg"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3I-E2-8VU">
+                                <rect key="frame" x="25" y="177" width="270" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Salário com aumento:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TU6-pq-HrT">
+                                        <rect key="frame" x="0.0" y="0.0" width="228" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNg-Ky-tTm">
+                                        <rect key="frame" x="228" y="0.0" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="Qnv-0f-cCR"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nEf-Nb-Lkz">
+                                <rect key="frame" x="25" y="218" width="270" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Comissão de vendas:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wl8-Jb-r18">
+                                        <rect key="frame" x="0.0" y="0.0" width="228" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F89-XL-tzM">
+                                        <rect key="frame" x="228" y="0.0" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="x8D-Rb-UDD"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cQy-tQ-QSn">
+                                <rect key="frame" x="25" y="265" width="270" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salário:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fd1-mn-9Fz">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SfR-iz-7y7">
+                                        <rect key="frame" x="90" y="0.0" width="90" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PL6-1o-3E3">
+                                        <rect key="frame" x="180" y="0.0" width="90" height="30"/>
+                                        <state key="normal" title="Limpar"/>
+                                        <connections>
+                                            <action selector="calcularAumento:" destination="orS-YG-H6i" eventType="touchUpInside" id="yTG-v8-0Zu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="uwV-1H-8HW"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cQy-tQ-QSn" firstAttribute="centerX" secondItem="xkP-MW-4J7" secondAttribute="centerX" id="2Cb-lg-cAe"/>
+                            <constraint firstItem="cQy-tQ-QSn" firstAttribute="top" secondItem="nEf-Nb-Lkz" secondAttribute="bottom" constant="26" id="5IY-rH-5rP"/>
+                            <constraint firstItem="w0j-cq-mgN" firstAttribute="centerX" secondItem="xkP-MW-4J7" secondAttribute="centerX" id="O9e-Mp-9Cl"/>
+                            <constraint firstItem="xm4-oA-dkA" firstAttribute="top" secondItem="q0J-Bi-nx8" secondAttribute="bottom" constant="19" id="aAv-fv-YOH"/>
+                            <constraint firstItem="xm4-oA-dkA" firstAttribute="centerX" secondItem="xkP-MW-4J7" secondAttribute="centerX" id="duw-9y-Ony"/>
+                            <constraint firstItem="nEf-Nb-Lkz" firstAttribute="top" secondItem="t3I-E2-8VU" secondAttribute="bottom" constant="20" id="eRe-Ws-rJQ"/>
+                            <constraint firstItem="nEf-Nb-Lkz" firstAttribute="centerX" secondItem="xkP-MW-4J7" secondAttribute="centerX" id="gq3-Ms-gae"/>
+                            <constraint firstItem="t3I-E2-8VU" firstAttribute="top" secondItem="w0j-cq-mgN" secondAttribute="bottom" constant="20" id="lv3-IY-7U6"/>
+                            <constraint firstItem="w0j-cq-mgN" firstAttribute="top" secondItem="xm4-oA-dkA" secondAttribute="bottom" constant="25" id="oaI-Jq-qWc"/>
+                            <constraint firstItem="t3I-E2-8VU" firstAttribute="centerX" secondItem="xkP-MW-4J7" secondAttribute="centerX" id="zsL-xe-1NI"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="lbComissao" destination="F89-XL-tzM" id="Z1u-Fb-wYD"/>
+                        <outlet property="lbSalarioBase" destination="Bae-hn-V56" id="5lr-uw-YoB"/>
+                        <outlet property="lbSalarioComAumento" destination="aNg-Ky-tTm" id="zK4-Xf-W2e"/>
+                        <outlet property="lbTextComissao" destination="Wl8-Jb-r18" id="m3c-Yf-sSs"/>
+                        <outlet property="salarioBase" destination="SfR-iz-7y7" id="XND-Tm-F1b"/>
+                        <outlet property="segmentedControl" destination="xm4-oA-dkA" id="U3H-nu-0cv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Lg-dM-yvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

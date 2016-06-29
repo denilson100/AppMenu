@@ -10,4 +10,6 @@
 
 @interface Vendedor : Funcionario
 
++ (double) calculaAumento : (Vendedor *) vendedor;
+
 @end

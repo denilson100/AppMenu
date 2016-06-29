@@ -11,7 +11,7 @@
 @implementation Funcionario
 
 + (double) calculaAumento : (Funcionario *) funcionario {
-    return [funcionario salario] * 2.0;
+    return [funcionario salario] * 1.07;
 }
 
 @end

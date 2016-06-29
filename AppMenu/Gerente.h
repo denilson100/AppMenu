@@ -10,4 +10,6 @@
 
 @interface Gerente : Funcionario
 
++ (double) calculaAumento : (Gerente *) gerente;
+
 @end

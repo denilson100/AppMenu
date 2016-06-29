@@ -10,4 +10,8 @@
 
 @implementation Gerente
 
++ (double) calculaAumento : (Gerente *) gerente {
+    return [gerente salario] * 1.10;
+}
+
 @end
