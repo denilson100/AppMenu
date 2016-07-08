@@ -3,9 +3,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Menu-->
         <scene sceneID="Y64-On-Btx">
             <objects>
                 <tableViewController id="2dz-sX-sR8" sceneMemberID="viewController">
@@ -14,10 +15,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="Menu" id="lvK-Xd-FL3">
+                            <tableViewSection headerTitle="" id="lvK-Xd-FL3">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="5Yg-sp-r7W" style="IBUITableViewCellStyleDefault" id="XAQ-Qg-Yl7">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XAQ-Qg-Yl7" id="dZr-PQ-BGj">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -31,13 +32,15 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.098087284482758622" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.099380387931034486" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="Ptv-8p-FJR" kind="show" id="cX4-de-eYq"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ylA-ya-RJQ" style="IBUITableViewCellStyleDefault" id="hVy-cj-UWN">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hVy-cj-UWN" id="s1c-vl-EWw">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -51,13 +54,15 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.15274784482758622" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.20051185344827585" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="Q3L-LW-1OR" kind="show" id="JYD-Sk-fdQ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Poc-Cg-oJY" style="IBUITableViewCellStyleDefault" id="mJ8-BL-gxi">
-                                        <rect key="frame" x="0.0" y="180" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mJ8-BL-gxi" id="arH-Le-ZfG">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -71,13 +76,15 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.22545797413793103" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.30245150862068965" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="orS-YG-H6i" kind="show" id="DdP-hq-9uV"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="pwy-S8-ZRa" style="IBUITableViewCellStyleDefault" id="Csa-d0-SYC">
-                                        <rect key="frame" x="0.0" y="224" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Csa-d0-SYC" id="Gzk-h9-eK9">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -91,7 +98,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.29525862068965519" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.4033135775862069" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="Vk0-rL-MKV" kind="show" id="bc6-iz-taE"/>
                                         </connections>
@@ -104,7 +113,7 @@
                             <outlet property="delegate" destination="2dz-sX-sR8" id="m2c-tB-W6y"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="ber-aN-X48"/>
+                    <navigationItem key="navigationItem" title="Menu" id="ber-aN-X48"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dyn-6p-YaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -222,7 +231,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qLb-qp-I4a" firstAttribute="top" secondItem="80Y-af-aCh" secondAttribute="bottom" constant="5" id="JX5-2D-GU2"/>
                             <constraint firstItem="80Y-af-aCh" firstAttribute="centerX" secondItem="LGr-DO-kAx" secondAttribute="centerX" id="L9n-Ro-tnL"/>
@@ -501,17 +510,238 @@
         <!--Calculadora-->
         <scene sceneID="6Ff-lB-gcl">
             <objects>
-                <viewController title="Calculadora" id="Ptv-8p-FJR" sceneMemberID="viewController">
+                <viewController title="Calculadora" id="Ptv-8p-FJR" customClass="ViewControllerCalculadora" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="THt-gN-Gld"/>
                         <viewControllerLayoutGuide type="bottom" id="paY-EJ-saf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bOx-F2-fr1">
+                    <view key="view" contentMode="scaleToFill" id="x0H-yA-vRv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4Ww-ud-aNW">
+                                <rect key="frame" x="16" y="60" width="288" height="503"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQ5-O0-7hP">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="94"/>
+                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.61729831560000004" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="45"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4ch-Xd-961">
+                                        <rect key="frame" x="0.0" y="102" width="288" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYW-7q-hxK">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="7">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="8qy-hM-oT0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNX-bQ-aR9">
+                                                <rect key="frame" x="73" y="0.0" width="69" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="8">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="dDA-KH-gRb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNd-LN-P9i">
+                                                <rect key="frame" x="147" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="9">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="QkM-lf-4YO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax8-HY-a40">
+                                                <rect key="frame" x="220" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.532382986" green="0.85917893970000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btOperador:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="MWn-xN-RPz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cBT-mL-3wG">
+                                        <rect key="frame" x="0.0" y="204" width="288" height="95"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2o-KE-S7d">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="95"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="6">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="wv5-cg-Loi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riX-jZ-htT">
+                                                <rect key="frame" x="73" y="0.0" width="69" height="95"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="5">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="scI-io-10C"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhx-6v-ZcE">
+                                                <rect key="frame" x="147" y="0.0" width="68" height="95"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="4">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="yBJ-wt-Jup"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWm-Rr-mc9">
+                                                <rect key="frame" x="220" y="0.0" width="68" height="95"/>
+                                                <color key="backgroundColor" red="0.532382986" green="0.85917893970000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="-">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btOperador:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="uZA-fy-D6I"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="lRw-IT-cHD">
+                                        <rect key="frame" x="0.0" y="307" width="288" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyQ-oc-J18">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="BeL-NF-nOv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="su2-76-6YQ">
+                                                <rect key="frame" x="73" y="0.0" width="69" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="2">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="EiS-0F-EQB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0V5-lv-EXH">
+                                                <rect key="frame" x="147" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="3">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="yup-Az-V3T"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSV-lG-ZKT">
+                                                <rect key="frame" x="220" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.532382986" green="0.85917893970000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="x">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btOperador:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="h7d-DX-0nt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vGK-LR-jx3">
+                                        <rect key="frame" x="0.0" y="409" width="288" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIA-QE-vPV">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                <state key="normal" title="Clear">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btClear:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="K3l-fK-0Et"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFC-Oa-RnM">
+                                                <rect key="frame" x="73" y="0.0" width="69" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btNamber:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="zxj-8O-BCt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhy-jr-c6a">
+                                                <rect key="frame" x="147" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btTotal:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="GlC-c7-r6N"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0d-W1-nMR">
+                                                <rect key="frame" x="220" y="0.0" width="68" height="94"/>
+                                                <color key="backgroundColor" red="0.532382986" green="0.85917893970000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                                <state key="normal" title="%">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btOperador:" destination="Ptv-8p-FJR" eventType="touchUpInside" id="PUd-dY-4gv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94435197110000002" green="0.98387962579999999" blue="0.98418372870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Ww-ud-aNW" secondAttribute="trailing" id="adW-fL-eVH"/>
+                            <constraint firstItem="4Ww-ud-aNW" firstAttribute="leading" secondItem="x0H-yA-vRv" secondAttribute="leadingMargin" id="pdQ-od-AeH"/>
+                            <constraint firstItem="paY-EJ-saf" firstAttribute="top" secondItem="4Ww-ud-aNW" secondAttribute="bottom" constant="5" id="sZF-AK-hO5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Ww-ud-aNW" secondAttribute="trailing" id="tua-o7-QHK"/>
+                            <constraint firstItem="4Ww-ud-aNW" firstAttribute="leading" secondItem="x0H-yA-vRv" secondAttribute="leadingMargin" id="xKz-C3-Ewu"/>
+                            <constraint firstItem="4Ww-ud-aNW" firstAttribute="top" secondItem="x0H-yA-vRv" secondAttribute="topMargin" constant="60" id="zbi-CX-1UC"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="lbResultado" destination="WQ5-O0-7hP" id="T6r-BH-cge"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avf-44-AEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

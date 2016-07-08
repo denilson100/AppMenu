@@ -19,6 +19,7 @@
 		D81841781D240C61006BB7F9 /* Gerente.m in Sources */ = {isa = PBXBuildFile; fileRef = D81841771D240C61006BB7F9 /* Gerente.m */; };
 		D818417B1D240C71006BB7F9 /* Vendedor.m in Sources */ = {isa = PBXBuildFile; fileRef = D818417A1D240C71006BB7F9 /* Vendedor.m */; };
 		D818417E1D240FD9006BB7F9 /* ViewControllerCalcSalario.m in Sources */ = {isa = PBXBuildFile; fileRef = D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */; };
+		D81841811D2449BA006BB7F9 /* ViewControllerCalculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = D81841801D2449BA006BB7F9 /* ViewControllerCalculadora.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		D818417A1D240C71006BB7F9 /* Vendedor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vendedor.m; sourceTree = "<group>"; };
 		D818417C1D240FD9006BB7F9 /* ViewControllerCalcSalario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCalcSalario.h; sourceTree = "<group>"; };
 		D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCalcSalario.m; sourceTree = "<group>"; };
+		D818417F1D2449BA006BB7F9 /* ViewControllerCalculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCalculadora.h; sourceTree = "<group>"; };
+		D81841801D2449BA006BB7F9 /* ViewControllerCalculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCalculadora.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D81841741D240B21006BB7F9 /* Funcionario.m */,
 				D818417C1D240FD9006BB7F9 /* ViewControllerCalcSalario.h */,
 				D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */,
+				D818417F1D2449BA006BB7F9 /* ViewControllerCalculadora.h */,
+				D81841801D2449BA006BB7F9 /* ViewControllerCalculadora.m */,
 				D81841761D240C61006BB7F9 /* Gerente.h */,
 				D81841771D240C61006BB7F9 /* Gerente.m */,
 				D81841791D240C71006BB7F9 /* Vendedor.h */,
@@ -179,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81841811D2449BA006BB7F9 /* ViewControllerCalculadora.m in Sources */,
 				D81841721D235908006BB7F9 /* ViewControllerConvrtTemperatura.m in Sources */,
 				D81841751D240B21006BB7F9 /* Funcionario.m in Sources */,
 				D81841781D240C61006BB7F9 /* Gerente.m in Sources */,
