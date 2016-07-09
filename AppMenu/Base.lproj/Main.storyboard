@@ -105,6 +105,28 @@
                                             <segue destination="Vk0-rL-MKV" kind="show" id="bc6-iz-taE"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="HDk-sl-yET" style="IBUITableViewCellStyleDefault" id="ebN-Mq-Ljz">
+                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ebN-Mq-Ljz" id="kN7-jq-HYd">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Adiciona dia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HDk-sl-yET">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.29525862069999997" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="0.40331357759999997" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="QGf-ac-RiM" kind="show" id="YoX-Ui-A4q"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -118,7 +140,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dyn-6p-YaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="461" y="245"/>
+            <point key="canvasLocation" x="437" y="245"/>
         </scene>
         <!--Soma da PA-->
         <scene sceneID="a2n-Y0-PFP">
@@ -252,6 +274,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzP-pQ-Xt0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="904" y="588"/>
+        </scene>
+        <!--View Controller Adiciona Dia-->
+        <scene sceneID="jIe-x8-PXL">
+            <objects>
+                <viewController id="QGf-ac-RiM" customClass="ViewControllerAdicionaDia" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E7R-hZ-RK8"/>
+                        <viewControllerLayoutGuide type="bottom" id="qaB-Ox-mXP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ikG-hf-yu1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8P-5c-zvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="1024"/>
         </scene>
         <!--View Controller Convrt Temperatura-->
         <scene sceneID="53H-zt-26L">

@@ -20,6 +20,7 @@
 		D818417B1D240C71006BB7F9 /* Vendedor.m in Sources */ = {isa = PBXBuildFile; fileRef = D818417A1D240C71006BB7F9 /* Vendedor.m */; };
 		D818417E1D240FD9006BB7F9 /* ViewControllerCalcSalario.m in Sources */ = {isa = PBXBuildFile; fileRef = D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */; };
 		D81841811D2449BA006BB7F9 /* ViewControllerCalculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = D81841801D2449BA006BB7F9 /* ViewControllerCalculadora.m */; };
+		D8EB38451D314F3800611EBD /* ViewControllerAdicionaDia.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EB38441D314F3800611EBD /* ViewControllerAdicionaDia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		D818417D1D240FD9006BB7F9 /* ViewControllerCalcSalario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCalcSalario.m; sourceTree = "<group>"; };
 		D818417F1D2449BA006BB7F9 /* ViewControllerCalculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCalculadora.h; sourceTree = "<group>"; };
 		D81841801D2449BA006BB7F9 /* ViewControllerCalculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCalculadora.m; sourceTree = "<group>"; };
+		D8EB38431D314F3800611EBD /* ViewControllerAdicionaDia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAdicionaDia.h; sourceTree = "<group>"; };
+		D8EB38441D314F3800611EBD /* ViewControllerAdicionaDia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAdicionaDia.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				D818415C1D22C641006BB7F9 /* ViewController.h */,
 				D818415D1D22C641006BB7F9 /* ViewController.m */,
 				D818415F1D22C641006BB7F9 /* Main.storyboard */,
+				D8EB38431D314F3800611EBD /* ViewControllerAdicionaDia.h */,
+				D8EB38441D314F3800611EBD /* ViewControllerAdicionaDia.m */,
 				D818416D1D231EE7006BB7F9 /* ViewControllerSomaDaPA.h */,
 				D818416E1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m */,
 				D81841701D235908006BB7F9 /* ViewControllerConvrtTemperatura.h */,
@@ -190,6 +195,7 @@
 				D81841781D240C61006BB7F9 /* Gerente.m in Sources */,
 				D818416F1D231EE7006BB7F9 /* ViewControllerSomaDaPA.m in Sources */,
 				D818417E1D240FD9006BB7F9 /* ViewControllerCalcSalario.m in Sources */,
+				D8EB38451D314F3800611EBD /* ViewControllerAdicionaDia.m in Sources */,
 				D818417B1D240C71006BB7F9 /* Vendedor.m in Sources */,
 				D818415E1D22C641006BB7F9 /* ViewController.m in Sources */,
 				D818415B1D22C641006BB7F9 /* AppDelegate.m in Sources */,
@@ -340,6 +346,7 @@
 				D818416C1D22C641006BB7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
