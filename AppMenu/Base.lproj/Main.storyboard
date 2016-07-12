@@ -275,10 +275,10 @@
             </objects>
             <point key="canvasLocation" x="904" y="588"/>
         </scene>
-        <!--View Controller Adiciona Dia-->
+        <!--Adiciona Dia-->
         <scene sceneID="jIe-x8-PXL">
             <objects>
-                <viewController id="QGf-ac-RiM" customClass="ViewControllerAdicionaDia" sceneMemberID="viewController">
+                <viewController title="Adiciona Dia" id="QGf-ac-RiM" customClass="ViewControllerAdicionaDia" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E7R-hZ-RK8"/>
                         <viewControllerLayoutGuide type="bottom" id="qaB-Ox-mXP"/>
@@ -430,10 +430,10 @@
             </objects>
             <point key="canvasLocation" x="-172" y="1024"/>
         </scene>
-        <!--View Controller Convrt Temperatura-->
+        <!--Converte Temp.-->
         <scene sceneID="53H-zt-26L">
             <objects>
-                <viewController id="Vk0-rL-MKV" customClass="ViewControllerConvrtTemperatura" sceneMemberID="viewController">
+                <viewController title="Converte Temp." id="Vk0-rL-MKV" customClass="ViewControllerConvrtTemperatura" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="08f-5g-402"/>
                         <viewControllerLayoutGuide type="bottom" id="Tup-Sd-fze"/>
