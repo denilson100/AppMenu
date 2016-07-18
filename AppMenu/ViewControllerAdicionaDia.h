@@ -21,6 +21,14 @@
 @property (weak, nonatomic) IBOutlet UITextField *textFieldAno;
 
 
+@property (weak, nonatomic) IBOutlet UITextField *textFieldSeg;
+
+@property (weak, nonatomic) IBOutlet UITextField *textFieldMin;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *textFildHora;
+
+
 - (IBAction)addDia:(UIButton *)sender;
 
 
@@ -30,13 +38,7 @@
 - (IBAction)addAno:(UIButton *)sender;
 
 
-- (IBAction)removeDia:(UIButton *)sender;
 
-
-- (IBAction)removeMes:(UIButton *)sender;
-
-
-- (IBAction)removeAno:(UIButton *)sender;
 
 
 @property (weak, nonatomic) IBOutlet UILabel *lbDia;
@@ -45,5 +47,11 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *lbAno;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *lbHora;
+
+@property (weak, nonatomic) IBOutlet UILabel *lbMinuto;
+
+@property (weak, nonatomic) IBOutlet UILabel *lbSegundo;
 
 @end

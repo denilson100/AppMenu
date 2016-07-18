@@ -337,103 +337,210 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ybr-xo-kId">
-                                <rect key="frame" x="95" y="137" width="130" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="1GM-Kj-HnE">
+                                <rect key="frame" x="174" y="183" width="130" height="104"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMS-TP-esh">
-                                        <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLA-M0-juH">
-                                        <rect key="frame" x="65" y="0.0" width="65" height="30"/>
-                                        <state key="normal" title="Add Dia"/>
-                                        <connections>
-                                            <action selector="addDia:" destination="QGf-ac-RiM" eventType="touchUpInside" id="PFA-V3-3Zt"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ybr-xo-kId">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMS-TP-esh">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLA-M0-juH">
+                                                <rect key="frame" x="65" y="0.0" width="65" height="30"/>
+                                                <state key="normal" title="Add Dia"/>
+                                                <connections>
+                                                    <action selector="addDia:" destination="QGf-ac-RiM" eventType="touchUpInside" id="PFA-V3-3Zt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-Q6-q9z">
+                                        <rect key="frame" x="0.0" y="37" width="130" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIW-FA-hlE">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFr-zl-YXu">
+                                                <rect key="frame" x="65" y="0.0" width="65" height="30"/>
+                                                <state key="normal" title="Add Mês"/>
+                                                <connections>
+                                                    <action selector="addMes:" destination="QGf-ac-RiM" eventType="touchUpInside" id="wfU-xX-aZk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xbV-1H-ZpU">
+                                        <rect key="frame" x="0.0" y="74" width="130" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rru-pe-P0t">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4N-EA-MaQ">
+                                                <rect key="frame" x="65" y="0.0" width="65" height="30"/>
+                                                <state key="normal" title="Add Ano"/>
+                                                <connections>
+                                                    <action selector="addAno:" destination="QGf-ac-RiM" eventType="touchUpInside" id="Apg-PE-GWO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="NYB-lJ-El9"/>
+                                    <constraint firstAttribute="width" constant="130" id="oLN-7d-dOL"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-Q6-q9z">
-                                <rect key="frame" x="95" y="177" width="130" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="S9U-ph-28M">
+                                <rect key="frame" x="16" y="132" width="288" height="26"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIW-FA-hlE">
-                                        <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFr-zl-YXu">
-                                        <rect key="frame" x="65" y="0.0" width="65" height="30"/>
-                                        <state key="normal" title="Add Mês"/>
-                                        <connections>
-                                            <action selector="addMes:" destination="QGf-ac-RiM" eventType="touchUpInside" id="wfU-xX-aZk"/>
-                                        </connections>
-                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oS-2d-51r">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXT-BZ-CTd">
+                                        <rect key="frame" x="49" y="0.0" width="44" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uym-vr-uHR">
+                                        <rect key="frame" x="97" y="0.0" width="45" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JN1-H3-tdY">
+                                        <rect key="frame" x="146" y="0.0" width="45" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9z-3V-WlG">
+                                        <rect key="frame" x="195" y="0.0" width="44" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJj-lJ-zqQ">
+                                        <rect key="frame" x="243" y="0.0" width="45" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="Ksl-pJ-5vy"/>
-                                </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xbV-1H-ZpU">
-                                <rect key="frame" x="95" y="217" width="130" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="8ot-tS-FcK">
+                                <rect key="frame" x="16" y="183" width="130" height="104"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rru-pe-P0t">
-                                        <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4N-EA-MaQ">
-                                        <rect key="frame" x="65" y="0.0" width="65" height="30"/>
-                                        <state key="normal" title="Add Ano"/>
-                                        <connections>
-                                            <action selector="addAno:" destination="QGf-ac-RiM" eventType="touchUpInside" id="Apg-PE-GWO"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JC8-vN-NOI">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqt-7R-v6O">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                                <state key="normal" title="Add seg."/>
+                                                <connections>
+                                                    <action selector="addSegundos:" destination="QGf-ac-RiM" eventType="touchUpInside" id="6VV-Di-yh2"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PRd-QP-Yq6">
+                                                <rect key="frame" x="65" y="0.0" width="65" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6cw-1p-AVW">
+                                        <rect key="frame" x="0.0" y="37" width="130" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAh-cr-TR8">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                                <state key="normal" title="Add min."/>
+                                                <connections>
+                                                    <action selector="addMinutos:" destination="QGf-ac-RiM" eventType="touchUpInside" id="5kM-cQ-ybH"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whV-B7-A1B">
+                                                <rect key="frame" x="65" y="0.0" width="65" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yXw-Fa-b8J">
+                                        <rect key="frame" x="0.0" y="74" width="130" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-rJ-DuP">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                                <state key="normal" title="Add hora"/>
+                                                <connections>
+                                                    <action selector="addHoras:" destination="QGf-ac-RiM" eventType="touchUpInside" id="UFl-Qc-x1a"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PZc-oL-ghx">
+                                                <rect key="frame" x="65" y="0.0" width="65" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="gUH-7N-Ntl"/>
+                                    <constraint firstAttribute="width" constant="130" id="w9Z-2j-az4"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="W6T-Q6-q9z" firstAttribute="centerX" secondItem="ikG-hf-yu1" secondAttribute="centerX" id="4Ko-Pc-hwZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1GM-Kj-HnE" secondAttribute="trailing" id="6EC-3m-j1u"/>
+                            <constraint firstItem="8ot-tS-FcK" firstAttribute="leading" secondItem="ikG-hf-yu1" secondAttribute="leadingMargin" id="7nf-7x-Yo3"/>
                             <constraint firstItem="gIj-ri-NPc" firstAttribute="centerX" secondItem="ikG-hf-yu1" secondAttribute="centerX" id="Dc7-n9-pFl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CVI-rR-UN7" secondAttribute="trailing" id="E6A-5X-UHd"/>
                             <constraint firstItem="CVI-rR-UN7" firstAttribute="centerX" secondItem="ikG-hf-yu1" secondAttribute="centerX" id="Gnv-xw-gCr"/>
                             <constraint firstItem="CVI-rR-UN7" firstAttribute="top" secondItem="E7R-hZ-RK8" secondAttribute="bottom" id="Gvt-yV-ffA"/>
-                            <constraint firstItem="xbV-1H-ZpU" firstAttribute="centerX" secondItem="ikG-hf-yu1" secondAttribute="centerX" id="II2-AU-8N8"/>
                             <constraint firstItem="gIj-ri-NPc" firstAttribute="leading" secondItem="ikG-hf-yu1" secondAttribute="leadingMargin" id="NX5-3C-FvU"/>
-                            <constraint firstItem="W6T-Q6-q9z" firstAttribute="top" secondItem="ybr-xo-kId" secondAttribute="bottom" constant="10" id="QZX-05-qyY"/>
-                            <constraint firstItem="xbV-1H-ZpU" firstAttribute="top" secondItem="W6T-Q6-q9z" secondAttribute="bottom" constant="10" id="Vc6-uG-WCf"/>
-                            <constraint firstItem="ybr-xo-kId" firstAttribute="centerX" secondItem="ikG-hf-yu1" secondAttribute="centerX" id="Woc-w7-Wy6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gIj-ri-NPc" secondAttribute="trailing" id="deL-G9-KZY"/>
+                            <constraint firstItem="S9U-ph-28M" firstAttribute="top" secondItem="gIj-ri-NPc" secondAttribute="bottom" constant="15" id="eEd-dQ-hPp"/>
+                            <constraint firstItem="S9U-ph-28M" firstAttribute="leading" secondItem="ikG-hf-yu1" secondAttribute="leadingMargin" id="eFm-R7-8AM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S9U-ph-28M" secondAttribute="trailing" id="ebi-gf-2OI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1GM-Kj-HnE" secondAttribute="trailing" id="ewP-dQ-m99"/>
                             <constraint firstItem="gIj-ri-NPc" firstAttribute="top" secondItem="CVI-rR-UN7" secondAttribute="bottom" id="s94-pP-EKW"/>
+                            <constraint firstItem="1GM-Kj-HnE" firstAttribute="top" secondItem="S9U-ph-28M" secondAttribute="bottom" constant="30" id="t79-pq-Snk"/>
                             <constraint firstItem="CVI-rR-UN7" firstAttribute="leading" secondItem="ikG-hf-yu1" secondAttribute="leadingMargin" id="tuC-Zo-PnZ"/>
-                            <constraint firstItem="ybr-xo-kId" firstAttribute="top" secondItem="gIj-ri-NPc" secondAttribute="bottom" constant="20" id="y9f-f5-zan"/>
+                            <constraint firstItem="8ot-tS-FcK" firstAttribute="top" secondItem="S9U-ph-28M" secondAttribute="bottom" constant="30" id="ys3-dB-lfJ"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="lbAno" destination="LDD-SC-xig" id="yz4-7m-hA0"/>
                         <outlet property="lbDia" destination="1EO-6b-awh" id="u6f-Ak-1B6"/>
+                        <outlet property="lbHora" destination="7oS-2d-51r" id="dDV-ER-AOh"/>
                         <outlet property="lbMes" destination="RLl-d2-IbA" id="0lm-Xc-pcu"/>
+                        <outlet property="lbMinuto" destination="uym-vr-uHR" id="ScW-M0-T1Z"/>
+                        <outlet property="lbSegundo" destination="r9z-3V-WlG" id="BMQ-lm-NdP"/>
                         <outlet property="textFieldAno" destination="rru-pe-P0t" id="ZQG-Ul-ghx"/>
                         <outlet property="textFieldDia" destination="UMS-TP-esh" id="HvZ-E1-Fbh"/>
                         <outlet property="textFieldMes" destination="KIW-FA-hlE" id="Acu-lx-ddw"/>
+                        <outlet property="textFieldMin" destination="whV-B7-A1B" id="tk3-dq-lGb"/>
+                        <outlet property="textFieldSeg" destination="PRd-QP-Yq6" id="OCr-F9-CJo"/>
+                        <outlet property="textFildHora" destination="PZc-oL-ghx" id="Vmq-xB-9TA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l8P-5c-zvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-172" y="1024"/>
         </scene>
-        <!--Converte Temp.-->
+        <!--Converte Temp-->
         <scene sceneID="53H-zt-26L">
             <objects>
-                <viewController title="Converte Temp." id="Vk0-rL-MKV" customClass="ViewControllerConvrtTemperatura" sceneMemberID="viewController">
+                <viewController title="Converte Temp" id="Vk0-rL-MKV" customClass="ViewControllerConvrtTemperatura" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="08f-5g-402"/>
                         <viewControllerLayoutGuide type="bottom" id="Tup-Sd-fze"/>
